@@ -1,0 +1,55 @@
+.item {
+  display: grid;
+  grid-template-areas:
+    "carModel . name"
+    "breakdownType . phone"
+    "message . email"
+    "message . button";
+  border: 1px solid var(--hint-color);
+  border-radius: 8px;
+  gap: 8px;
+  padding: 8px;
+  width: 60vw;
+  margin-top: 32px;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+}
+
+.delete {
+  background-color: var(--red-color);
+}
+
+.delete:hover {
+  background-color: var(--red-hover-color);
+}
+
+.carModel {
+  grid-area: carModel;
+}
+
+.breakdownType {
+  grid-area: breakdownType;
+}
+
+.message {
+  grid-area: message;
+}
+
+.name {
+  grid-area: name;
+}
+
+.phone {
+  grid-area: phone;
+}
+
+.email {
+  grid-area: email;
+}
+
+.button {
+  grid-area: button;
+}

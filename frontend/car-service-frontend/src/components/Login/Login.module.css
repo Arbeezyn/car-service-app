@@ -1,0 +1,30 @@
+.eye {
+  position: absolute;
+  right: 15px;
+  top: 54%;
+  cursor: pointer;
+}
+
+.eye:hover {
+  color: var(--secondary-color);
+}
+
+.password {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.username {
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.button {
+  width: 100%;
+  align-self: center;
+}

@@ -1,0 +1,39 @@
+.link,
+.link:visited {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 12px;
+  border: solid 1px var(--secondary-color);
+  padding: 0px 16px;
+  width: 200px;
+  height: 60px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-size: 18px;
+}
+
+.link:hover {
+  background-color: var(--hover-color);
+  cursor: pointer;
+}
+
+.link:active {
+  background-color: var(--hover-color);
+  border: solid 2px var(--primary-color);
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 24px;
+  color: var(--font-color);
+}
